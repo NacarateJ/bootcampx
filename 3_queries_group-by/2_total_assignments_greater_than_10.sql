@@ -1,5 +1,5 @@
-SELECT day, count(*) as total_assignments
+SELECT day, COUNT(*) AS total_assignments
 FROM assignments
 GROUP BY DAY
-HAVING count(*) >= 10
+HAVING COUNT(*) >= 10
 ORDER BY day;
