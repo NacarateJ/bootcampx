@@ -7,7 +7,7 @@ CREATE TABLE teachers (
   is_active BOOLEAN DEFAULT TRUE,
   start_date DATE,
   end_date DATE
-);
+)
 
 CREATE TABLE assistance_requests (
   id SERIAL PRIMARY KEY NOT NULL,
@@ -19,4 +19,4 @@ CREATE TABLE assistance_requests (
   completed_at TIMESTAMP,
   student_feedback TEXT,
   teacher_feedback TEXT
-)
+);
